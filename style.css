@@ -1,0 +1,26 @@
+.banner-container {
+    background-image: url("banner.png");
+    background-size: cover;
+    padding: 10px;
+}
+
+
+/*                    Main Contents    */
+
+main {
+    margin: 10px;
+}
+
+.content-box {
+    border: solid black;
+    padding: 20px;
+}
+
+.welcome-image {
+    display: inline;
+}
+
+.main-title {
+    width: 100%;
+    
+}

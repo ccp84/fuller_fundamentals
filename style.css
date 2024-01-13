@@ -1,26 +1,43 @@
-.banner-container {
-    background-image: url("banner.png");
-    background-size: cover;
-    padding: 10px;
+/* Root variables */
+:root {
+  --brand: #25d9f3;
+  --secondary: #67696d;
+  --mono: "Oxygen mono", monospace;
+  --sans: Oxygen, sans-serif;
 }
 
+html {
+  box-sizing: border-box;
+  background-color: var(--secondary);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--sans);
+}
 
 /*                    Main Contents    */
 
 main {
-    margin: 10px;
+  font-family: var(--mono);
 }
 
-.content-box {
-    border: solid black;
-    padding: 20px;
+header {
+  background-color: var(--brand);
+  border-radius: 5;
 }
 
-.welcome-image {
-    display: inline;
+#introduction {
+  background-color: var(--brand);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
-.main-title {
-    width: 100%;
-    
+#contact {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
 }

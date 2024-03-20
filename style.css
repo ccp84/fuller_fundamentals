@@ -8,14 +8,20 @@
 
 html {
   box-sizing: border-box;
-  background-color: var(--secondary);
+  color: white;
 }
 
-h1,
+h1 {
+  font-family: var(--sans);
+  color: var(--secondary);
+  font-size: medium;
+}
+
 h2,
 h3,
 h4 {
   font-family: var(--sans);
+  color: var(--brand);
 }
 
 /*                    Main Contents    */
@@ -26,18 +32,27 @@ main {
 
 header {
   background-color: var(--brand);
-  border-radius: 5;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 #introduction {
-  background-color: var(--brand);
+  background-color: var(--secondary);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#prices {
+  background-color: var(--secondary);
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
 
 #contact {
-  background-color: white;
+  background-color: var(--secondary);
   padding: 10px;
   border-radius: 10px;
 }

@@ -30,7 +30,7 @@ main {
   font-family: var(--mono);
 }
 
-header {
+#header {
   background-color: var(--brand);
   padding: 10px;
   border-radius: 10px;
@@ -41,7 +41,7 @@ header {
   gap: 5px;
 }
 
-header img {
+#header img {
   width: 5rem;
   height: 5rem;
 }
@@ -61,11 +61,18 @@ header img {
 }
 
 #contact {
-  background-color: var(--secondary);
-  padding: 10px;
-  border-radius: 10px;
+  background-color: white;
+  color: black;
 }
 
 #contact a {
-  color: white;
+  color: black;
+}
+
+@media (min-width: 850px) {
+  html {
+    max-width: 80%;
+    display: flex;
+    margin: 0 auto;
+  }
 }

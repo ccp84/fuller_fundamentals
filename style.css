@@ -14,7 +14,7 @@ html {
 h1 {
   font-family: var(--sans);
   color: var(--secondary);
-  font-size: medium;
+  font-size: 80%;
 }
 
 h2,
@@ -35,6 +35,15 @@ header {
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
 }
 
 #introduction {
@@ -55,4 +64,8 @@ header {
   background-color: var(--secondary);
   padding: 10px;
   border-radius: 10px;
+}
+
+#contact a {
+  color: white;
 }
